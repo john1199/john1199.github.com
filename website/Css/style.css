@@ -1,0 +1,121 @@
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9e4f7+65,0fb4e7+89 */
+	background: #a9e4f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #a9e4f7 65%, #0fb4e7 89%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a9e4f7 65%,#0fb4e7 89%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a9e4f7 65%,#0fb4e7 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+	width: 960px:
+    margin: auto;
+}
+
+header {
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+59,7db9e8+100 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 59%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1e5799 59%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1e5799 59%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    padding: 10px 10px 1px 10px;
+    margin: -8px -10px 10px -10px;
+}
+.navegar {
+	width: 960px:
+    margin: auto;
+    text-align: center;
+}
+.navegar li {
+    display: inline;
+    list-style: none;
+    font-weight: 800;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.navegar h1{
+	color: white;
+}
+.navegar nav ul li a{
+	padding: 10px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+}
+header .navegar nav ul li a:hover{
+	color: #fff;
+	background: #1798;
+}
+.presentation {
+    margin: 20px;
+}
+a {text-decoration: none; color: white;}
+
+h1, h2, h3 {
+	padding: 0px 0 20px 10px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 1.80em;
+    font-weight: normal;
+    font-family: 'Charmonman', cursive;
+    line-height: 0.8em;
+    color: #00CED1;
+}
+
+p {
+    font-family: 'Comfortaa';
+    color: black;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p::first-letter {
+    font-size: 25px;
+    color: blue;
+}
+.presentation{
+	float: none;
+	text-align: center;
+}
+/**Proyectos (imagenes)**/
+img {
+    max-width: 100%;
+}
+
+.galeria li {
+    list-style: none;
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #AFEEEE;
+    color: #B0E0E6;
+}
+
+.galeria li a {
+    margin: 0;
+    padding: 5%;
+    /*font-size: 0.75em;*/
+    color: red;
+}
+
+/**Acerca**/
+.photo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 20%;
+}
+
+/**Footer**/
+footer {
+    text-align: center;
+    clear: both;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 15px 5px;
+}

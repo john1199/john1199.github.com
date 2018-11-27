@@ -89,6 +89,9 @@ ul{
 	list-style: none;
 	padding: 0;
 }
+.galeria{
+	position: relative;
+}
 .galeria ul li img{
 	margin-bottom: 15px;
 	display: flex;
@@ -98,7 +101,6 @@ ul{
 
 .galeria li a {
     margin: auto;
-    padding: 5%;
     /*font-size: 0.75em;*/
     color: red;
 }
@@ -121,4 +123,24 @@ footer {
     width: 30px;
     height: 30px;
     margin: 15px 5px;
+}
+@media (min-width:600px) {
+	.galeria{
+		filter: blur(2px);
+	}
+	.galeria ul li img{
+		display: inline;
+		float: left;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 2px;
+		background-color: #84ffff;
+		margin: .5em;
+		width: 25%;
+		height: 245px;
+
+	}
+	.galeria:hover{
+		filter: blur(0);
+	}
 }

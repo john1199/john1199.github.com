@@ -27,35 +27,35 @@ h1.title{
 	text-align: center;
 	color: white;
 	margin: auto;
+	margin-bottom: 10px;
 }
 .navegar {
 	width: 100%:
     margin: auto;
     text-align: center;
 }
-.navegar li {
-    display: inline;
-    list-style: none;
-    font-weight: 800;
-    padding: 10px 40px;
-    text-align: center;
-    margin: auto;
+li.navegar {
 }
 
 .navegar nav ul li a{
+    font-family: 'Comfortaa';
+    font-weight: normal;
+	font-weight: 800;
+	padding: 10px 40px 10px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 header .navegar nav ul li a:hover{
 	color: #fff;
 	background: #1798;
 }
 .presentation {
-	display: inline-block;
     margin: 20px;
 }
 a {text-decoration: none; color: white;}
 
 h1, h2, h3 {
-	padding: 0px 0 20px 10px;
+	padding-top: 10px;
     margin: 15px 0;
     text-align: center;
     font-size: 1.80em;
@@ -68,7 +68,8 @@ p {
     font-family: 'Comfortaa';
     color: black;
     text-align: justify;
-    margin:auto;
+    margin: inherit;
+	line-height: 1.2em;
 }
 
 p::first-letter {
@@ -86,7 +87,6 @@ img {
 }
 ul{
 	list-style: none;
-	margin: 0;
 	padding: 0;
 }
 .galeria ul li img{

@@ -11,7 +11,19 @@ body {
 	overflow-x: scroll;
 }
 	/*HEADER*/
-header {
+
+.title{
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	margin: auto;
+	padding-top: 25px;
+    font-weight: normal;
+    font-family: 'Charmonman', cursive;
+    line-height: 1.5em;
+}
+.head{
+	margin: -22px 0 0 0;
 	width: 100%;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+59,7db9e8+100 */
 	background: #1e5799; /* Old browsers */
@@ -19,44 +31,44 @@ header {
 	background: -webkit-linear-gradient(top, #1e5799 59%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #1e5799 59%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-    padding: 10px 10px 1px 10px;
-    margin: -8px -10px 10px -10px;
 }
-h1.title{
-	text-transform: capitalize;
-	text-align: center;
+.title h1{
 	color: white;
-	margin: auto;
-	margin-bottom: 10px;
+    font-size: 1.80em;
+    font-weight: normal;
 }
 .navegar {
 	width: 100%:
     margin: auto;
     text-align: center;
 }
-li.navegar {
-}
 
 .navegar nav ul li a{
-    font-family: 'Comfortaa';
+    font-family: 'Charmonman', cursive;
     font-weight: normal;
-	font-weight: 800;
-	padding: 10px 40px 10px;
+	padding: 10px 40px;
 	text-align: center;
-	margin-bottom: 10px;
+	font-size: 1.80em;
 }
-header .navegar nav ul li a:hover{
+.navegar nav ul{
+	padding-bottom: 10px;
+}
+.navegar nav ul li a:hover{
 	color: #fff;
 	background: #1798;
 }
 .presentation {
     margin: 20px;
 }
-a {text-decoration: none; color: white;}
+a{
+	text-decoration: none;
+}
+.navegar a {color: blue;}
 
-h1, h2, h3 {
+h2, h3 {
 	padding-top: 10px;
-    margin: 15px 0;
+    margin: 1.5em;
+	color: blue;
     text-align: center;
     font-size: 1.80em;
     font-weight: normal;
@@ -73,7 +85,8 @@ p {
 }
 
 p::first-letter {
-    font-size: 25px;
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
     color: blue;
 }
 .presentation{
@@ -81,24 +94,25 @@ p::first-letter {
 	text-align: center;
 }
 /**Proyectos (imagenes)**/
-img {
-    max-width: 280px;
-	margin: auto;
-}
+
 ul{
 	list-style: none;
 	padding: 0;
 }
 .galeria{
 	position: relative;
+	margin:25px;
 }
 .galeria ul li img{
-	margin-bottom: 15px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width: 100%;
+	margin: auto;
+	max-height: 300px;
+	padding: 3%;
+	border-radius: 25px;
 }
-
+img{
+	border-radius: 10px;
+}
 .galeria li a {
     margin: auto;
     /*font-size: 0.75em;*/
@@ -125,19 +139,18 @@ footer {
     margin: 15px 5px;
 }
 @media (min-width:600px) {
-	.galeria{
-		filter: blur(2px);
-	}
+
 	.galeria ul li img{
 		display: inline;
 		float: left;
-		padding-left: 12px;
-		padding-right: 12px;
-		padding-top: 2px;
+		padding: 1%;
 		background-color: #84ffff;
-		margin: .5em;
-		width: 25%;
+		margin-right: .4%;
+		width: 22.5%;
 		height: 245px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
 	}
 	.galeria:hover{

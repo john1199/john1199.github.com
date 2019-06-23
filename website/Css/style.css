@@ -1,17 +1,24 @@
 body {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9e4f7+65,0fb4e7+89 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9e4f7+65,0fb4e7+89
 	background: #a9e4f7; /* Old browsers */
-	background: -moz-linear-gradient(top, #a9e4f7 65%, #0fb4e7 89%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #a9e4f7 65%,#0fb4e7 89%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #a9e4f7 65%,#0fb4e7 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+	/*background: -moz-linear-gradient(top, #a9e4f7 65%, #0fb4e7 89%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(top, #a9e4f7 65%,#0fb4e7 89%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to bottom, #a9e4f7 65%,#0fb4e7 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+
 	width: 100%;
 	height: 100%;
     margin: auto;
 	overflow-x: scroll;
+	background: url("img/background.jpg") center no-repeat  ;
 }
 	/*HEADER*/
 
+hr{
+	width: 100%;
+	background-color: #39dcff;
+	border: none;
+}
 .title{
 	text-transform: capitalize;
 	text-align: center;
@@ -26,16 +33,17 @@ body {
 	margin: -22px 0 0 0;
 	width: 100%;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+59,7db9e8+100 */
-	background: #1e5799; /* Old browsers */
-	background: -moz-linear-gradient(top, #1e5799 59%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #1e5799 59%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #1e5799 59%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	/*background: #1e5799; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #1e5799 59%, #7db9e8 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(top, #1e5799 59%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to bottom, #1e5799 59%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 .title h1{
 	color: white;
     font-size: 1.80em;
     font-weight: normal;
+	padding-bottom: 1px;
 }
 .navegar {
 	width: 100%;
@@ -46,16 +54,39 @@ body {
 .navegar nav ul li a{
     font-family: 'Charmonman', cursive;
     font-weight: normal;
-	padding: 10px 40px;
+	padding: 0px 30px ;
 	text-align: center;
-	font-size: 1.80em;
+	font-size: 1.50em;
 }
 .navegar nav ul{
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 .navegar nav ul li a:hover{
-	color: #fff;
-	background: #1798;
+	color: blueviolet;
+	background: lavenderblush;
+	border-radius: 10%;
+}
+.navegar_proyects {
+	color: white;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.navegar_proyects nav ul li a{
+	font-family: 'Charmonman', cursive;
+	font-weight: normal;
+	padding: 0px 40px;
+	text-align: center;
+	font-size: 1.0em;
+}
+.navegar_proyects nav ul li a:hover{
+	color: blueviolet;
+	background: lavenderblush;
+	border-radius: 10%;
+}
+.navegar_proyects a{
+	color: white;
 }
 .presentation {
     margin: 20px;
@@ -63,22 +94,25 @@ body {
 a{
 	text-decoration: none;
 }
-.navegar a {color: blue;}
+.navegar a {color: floralwhite;}
 
 h2, h3 {
 	padding-top: 10px;
     margin: 1.5em;
-	color: blue;
+	color: white;
     text-align: center;
     font-size: 1.80em;
     font-weight: normal;
     font-family: 'Charmonman', cursive;
     line-height: 0.8em;
 }
+h4, h5 {
+	font-size: .8em;
+}
 
 p {
     font-family: 'Comfortaa';
-    color: black;
+    color: white;
     text-align: justify;
     margin: inherit;
 	line-height: 1.2em;
@@ -86,8 +120,8 @@ p {
 
 p::first-letter {
 	font-family: 'Charmonman', cursive;
-	font-size: 25px;
-    color: blue;
+	font-size: 30px;
+    color: blueviolet;
 }
 .presentation{
 	float: none;
@@ -101,18 +135,15 @@ ul{
 }
 .galeria{
 	position: relative;
-	margin:25px;
+	margin:15px;
 }
-.galeria ul li img{
+/*.galeria ul li img {
 	width: 100%;
 	margin: auto;
 	max-height: 300px;
-	padding: 3%;
+	padding: 3%;border: 10px;
 	border-radius: 25px;
-}
-img{
-	border-radius: 10px;
-}
+}*/
 .galeria li a {
     margin: auto;
     /*font-size: 0.75em;*/
@@ -132,28 +163,89 @@ footer {
     text-align: center;
     clear: both;
 }
-
+img{
+	border-radius: 35%;
+}
 .social-icon {
     width: 30px;
     height: 30px;
     margin: 15px 5px;
 }
-@media (min-width:600px) {
+
+/*Formulario*/
+
+form {
+	/* Sólo para centrar el formulario a la página */
+	margin: 0 auto;
+	width: 400px;
+	/* Para ver el borde del formulario */
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+form div + div {
+	margin-top: 1em;
+}
+label {
+	/* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+	display: inline-block;
+	width: 90px;
+	text-align: left;
+}
+input, textarea {
+	/* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+	font: 1em 'Charmonman';
+
+	/* Para darle el mismo tamaño a todos los campos de texto */
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/* Para armonizar el look&feel del borde en los campos de texto */
+	border: 1px solid #999;
+	/*Efecto transparente*/
+	opacity: 0.5;
+}
+input:focus, textarea:focus {
+	/* Para dar un pequeño destaque en elementos activos*/
+	border-color: #000;
+}
+textarea {
+	/* Para alinear campos de texto multilínea con sus labels */
+	vertical-align: top;
+
+	/* Para dar suficiente espacio para escribir texto */
+	height: 12em;
+
+	/* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+	resize: vertical;
+}
+.button {
+	/* Para posicionar los botones a la misma posición que los campos de texto */
+	padding-left: 90px; /* mismo tamaño a todos los elementos label */
+
+}
+button {
+	/* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+	margin-left: .5em;
+}
+/*@media only screen and (min-width: 600px) and (max-width: 800px)  {
+*/
 
 	.galeria ul li img{
 		display: inline;
 		float: left;
-		padding: 1%;
+		padding: .5%;
 		background-color: #84ffff;
-		margin-right: .4%;
+		margin-right: 1.5%;
 		width: 22.5%;
 		height: 245px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		border-radius: 25px;
 
 	}
-	.galeria:hover{
-		filter: blur(0);
-	}
-}
